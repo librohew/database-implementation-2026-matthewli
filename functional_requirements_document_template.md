@@ -1,44 +1,5 @@
 **Functional Requirements Document (FRD)** 
 
-**Database Implementation Project Template** 
-
-A Functional Requirements Document (FRD) explains **what a system must do** from the perspective of its  users and the organization. For a database implementation project, it defines the business problem, users,  processes, data the system must maintain, business rules, and the reports or queries the database must  support. 
-
-The FRD is written before the database is implemented. It becomes the blueprint for later project work,  including: 
-
-• Entity-relationship diagram (ERD) 
-
-• Relational schema and normalization 
-
-• Table creation scripts 
-
-• Primary and foreign keys 
-
-• Data-validation constraints 
-
-• Sample data 
-
-• SQL queries, views, stored procedures, and reports 
-
-An FRD does **not** primarily explain how to write SQL or what data types to select. Those are design and  implementation decisions. Instead, an FRD states the required system behavior. For example: 
-
-• Functional requirement: “The system shall allow staff to register a member for a class.” • Implementation decision: “Create an Enrollment table with MemberID and ClassID foreign keys.” 
-
-**Writing guidance** 
-
-Use clear, testable statements. A good functional requirement usually follows this pattern: The system shall \[perform an action\] for \[a user or role\] when \[a condition applies\]. Examples: 
-
-• The system shall store one record for each customer. 
-
-• The system shall prevent a customer from registering for the same event more than once.  
-• The system shall display all unpaid invoices for a selected customer. 
-
-• The system shall calculate the total amount paid for each order. 
-
-Avoid vague statements such as “The system should be easy to use” or “The system should manage  inventory well.” Replace them with measurable requirements, such as “The system shall show the  quantity on hand for every product.” 
-
-**Required sections** 
-
 **1\. Project identification** 
 
 Provide basic information about the project. 
