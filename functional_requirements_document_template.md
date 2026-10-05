@@ -2,8 +2,6 @@
 
 **1\. Project identification** 
 
-Provide basic information about the project. 
-
 | Item  | Your information |
 | ----- | ----- |
 | Project title  | KOHA-Lite Inventory Management for Little Free Libraries |
@@ -14,30 +12,9 @@ Provide basic information about the project.
 
 **2\. Business problem and project purpose** 
 
-Describe the real-world situation the database will address. Explain why the organization needs the  system and what is currently difficult, inefficient, inaccurate, or impossible to track. 
-
-**Template** 
-
 Little free libraries across New Jersey need a database system to manage books borrowed.  Currently, the system is based on an honor code and not a database. The purpose of this project is to create a database that will allow little free library directors to track the flow of books in-and-out. 
 
-**Questions to consider** 
-
-• What organization is being modeled? 
-
-• What information must it track? 
-
-• What process currently depends on paper, spreadsheets, memory, or disconnected files?  
-• What decisions or operations will improve when the database is available? 
-
 **3\. Scope** 
-
-Define the boundaries of the project. State what the system will do and what it will not do. Scope prevents  the project from becoming too broad. 
-
-**In scope** might include managing customers, products, appointments, employees, orders, memberships,  inventory, courses, or payments. 
-
-**Out of scope** might include a web interface, mobile application, online payment processing, employee  payroll, shipping integration, or accounting integration, unless your project specifically includes them. 
-
-**Template** 
 
 | In scope  | Out of scope |
 | ----- | ----- |
@@ -47,15 +24,13 @@ Define the boundaries of the project. State what the system will do and what it 
 
 **4\. Stakeholders and user roles** 
 
-Identify the people or groups that use, manage, or are affected by the system. A user role is a category of  user, not necessarily a specific person. 
-
-**Template** 
-
 | Stakeholder or role  | Responsibilities  | Database needs |
 | ----- | ----- | ----- |
 | Director | Manages upkeep of little free library and adds add-ons/repairs as needed | Check status of library without invasive/constant surveillance technologies like cameras or AI |
 | Reader/Patron | Borrows, returns, and tracks books borrowed from little free libraries | Statistics on libraries visited, a way of tracking which books came from which library |
 | Donor | Donates books without necessarily borrowing any books  | Which books are in high-demand and are need of having extras |
+
+TO-DO:
 
 **5\. Functional requirements** 
 
