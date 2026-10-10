@@ -7,7 +7,7 @@
 | Project title  | KOHA-Lite Inventory Management for Little Free Libraries |
 | Prepared by  | Matthew Li & Yash Shashtri |
 | Course/section  | 01:198:437:01 |
-| Date  | October 19, 2026 |
+| Date  | October 17, 2026 |
 | Version  | 1.0 |
 
 **2\. Business problem and project purpose** 
