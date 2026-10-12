@@ -30,17 +30,14 @@ Little free libraries across New Jersey need a database system to manage books b
 | Reader/Patron | Borrows, returns, and tracks books borrowed from little free libraries | Statistics on libraries visited, a way of tracking which books came from which library |
 | Donor | Donates books without necessarily borrowing any books  | Which books are in high-demand and are need of having extras |
 
-TO-DO:
-
 **5\. Functional requirements** 
 
-List the actions the database system must support. Number every requirement so it can be referenced in  the ERD, schema, testing documentation, and final presentation.  
 **Template** 
 
 | ID  | Functional requirement  | Priority  | Related data/entities |
 | ----- | ----- | ----- | ----- |
-| FR-01  | The system shall be able to track inventory confidentially_.  | High  | Reader |
-| FR-02  | The system shall \[action\].  | High/Medium/Low  | \[Entities likely needed\] |
+| FR-01  | The system shall be able to track books confidentially.  | High  | Reader, Books |
+| FR-02  | The system shall map which libraries have which books.  |   | \[Entities likely needed\] |
 | FR-03  | The system shall \[action\].  | High/Medium/Low  | \[Entities likely needed\] |
 
 A complete project should normally contain enough functional requirements to justify multiple related  tables. Aim for requirements that cover: 
