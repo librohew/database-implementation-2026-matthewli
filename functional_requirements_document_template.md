@@ -32,7 +32,6 @@ Little free libraries across New Jersey need a database system to manage books b
 
 **5\. Functional requirements** 
 
-**Template** 
 
 | ID  | Functional requirement  | Priority  | Related data/entities |
 | ----- | ----- | ----- | ----- |
