@@ -36,8 +36,8 @@ Little free libraries across New Jersey need a database system to manage books b
 | ID  | Functional requirement  | Priority  | Related data/entities |
 | ----- | ----- | ----- | ----- |
 | FR-01  | The system shall be able to track books confidentially.  | High  | Reader, Books |
-| FR-02  | The system shall map which libraries have which books.  |   | \[Entities likely needed\] |
-| FR-03  | The system shall \[action\].  | High/Medium/Low  | \[Entities likely needed\] |
+| FR-02  | The system shall map which libraries have which books.  |  High | Libraries, Books |
+| FR-03  | The system shall return a list of books in the library.  | High  | Libraries, Books, Reader |
 
 A complete project should normally contain enough functional requirements to justify multiple related  tables. Aim for requirements that cover: 
 
