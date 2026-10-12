@@ -39,7 +39,7 @@ List the actions the database system must support. Number every requirement so i
 
 | ID  | Functional requirement  | Priority  | Related data/entities |
 | ----- | ----- | ----- | ----- |
-| FR-01  | The system shall \[action\].  | High/Medium/Low  | \[Entities likely needed\] |
+| FR-01  | The system shall be able to track inventory confidentially_.  | High  | Reader |
 | FR-02  | The system shall \[action\].  | High/Medium/Low  | \[Entities likely needed\] |
 | FR-03  | The system shall \[action\].  | High/Medium/Low  | \[Entities likely needed\] |
 
